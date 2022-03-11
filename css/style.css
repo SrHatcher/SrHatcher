@@ -25,7 +25,7 @@
 
 .navigator__list_space{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .navigator__item{
@@ -45,4 +45,34 @@
 .container_width{
     width: 60%;
     height: 1000px;
+}
+
+.articulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 650px;
+    border: 1px solid black;
+}
+
+.articulo__imagen{
+    width: 40%;
+    height: 80%;
+    border: 1px solid black;
+}
+
+.articulo__nombre{
+    width: 50%;
+    height: 80%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.articulo__item{
+    padding: 0px;
+    margin: 0px;
+    font-size: 3em;
 }
